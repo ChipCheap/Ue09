@@ -2,6 +2,7 @@
 public class Xmastree {
 	private int lvl;
 	public String topper=" * ";
+	String trunk="[_]";	
 //c)	
 	public static void main(String[] args)
 	{
@@ -37,7 +38,6 @@ public class Xmastree {
 	{
 		String S="";			//combined stages String
 		String Stemp="";		//for leftside spacing
-		String trunk="[_]";	
 		String lvlS1="/.";		//every odd tree stage
 		String lvlS2="/,.,";	//even tree stages
 		int currentLvl=lvl;		//for spacings on every stage
